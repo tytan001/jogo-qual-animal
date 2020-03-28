@@ -87,8 +87,6 @@ public class QualAnimal {
 		} else {
 			return;
 		}
-
-		penseAnimal();
 	}
 
 	public void animalPensadoNaoAquatico() {
