@@ -60,6 +60,7 @@ public class QualAnimal {
 	}
 
 	public void animalPensadoAquatico() {
+		animalPensado.setAquatico(true);
 		if (animalPensado.getNome() == null || animalPensado.getNome().isEmpty()) {
 			animalPensado.setNome(JOptionPane.showInputDialog("Qual Animal você pensou?:"));
 		}
@@ -91,6 +92,7 @@ public class QualAnimal {
 	}
 
 	public void animalPensadoNaoAquatico() {
+		animalPensado.setAquatico(false);
 		if (animalPensado.getNome() == null || animalPensado.getNome().isEmpty()) {
 			animalPensado.setNome(JOptionPane.showInputDialog("Qual Animal você pensou?:"));
 		}
